@@ -46,3 +46,8 @@ img {
   background-color: var(--orange);
   padding: 10px 46px;
 }
+
+.btn-org:hover {
+  background-color: #ec4d26;
+  transition: background-color 0.5s ease-in-out;
+}
