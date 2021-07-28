@@ -1,0 +1,48 @@
+/* ------------
+    Fonts
+------------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+/* ------------
+    Global CSS
+------------ */
+
+:root {
+  --orange: #e76f51;
+  --grey: #6c6c6c;
+  --light-grey: #e0e0e0;
+  --blue-dia: #264653;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* ------------
+    Hero Section
+------------ */
+
+.hero {
+  min-height: 100vh;
+  padding: 5% 7%;
+  background-color: var(--blue-dia);
+}
+
+.hero p {
+  color: var(--light-grey);
+  line-height: 24px;
+}
+
+.btn-org {
+  background-color: var(--orange);
+  padding: 10px 46px;
+}
