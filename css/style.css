@@ -91,3 +91,10 @@ span {
 .user {
   width: 322px;
 }
+
+/* ------------
+    FAQ Section
+------------ */
+.accordion-body {
+  color: #7e848c;
+}
