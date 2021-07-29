@@ -100,5 +100,8 @@ span {
 }
 
 /* ------------
-    Contact Us Section
+    Travel Block Section
 ------------ */
+.travel-blog card {
+  width: 22rem;
+}
