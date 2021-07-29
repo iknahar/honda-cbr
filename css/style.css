@@ -13,6 +13,8 @@
   --grey: #6c6c6c;
   --light-grey: #e0e0e0;
   --blue-dia: #264653;
+  --rating: #e77c40;
+  --border-color: #dedede;
 }
 
 body {
@@ -56,7 +58,8 @@ img {
     Featured Section
 ------------ */
 
-.feature small {
+.feature small,
+span {
   color: var(--orange);
   font-weight: 600;
 }
@@ -68,4 +71,23 @@ img {
 }
 .feat-img div {
   width: 288px;
+}
+
+/* ------------
+    Happy Client Section
+------------ */
+.testimonial img {
+  width: 149px;
+}
+
+.testimonial p {
+  color: var(--grey);
+}
+
+.fa-star {
+  color: var(--rating);
+}
+
+.user {
+  width: 322px;
 }
